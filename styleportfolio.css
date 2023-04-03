@@ -1,0 +1,45 @@
+header {
+  color: gold;
+  left: 0;
+  right: 0;
+  padding: .5em 1em;
+  text-shadow: 1px 1px 1px black;
+  margin-bottom: 40px;
+}
+
+.name {
+    float: left;
+    color: gold;
+  }
+
+  a {
+    color: gold;
+  }
+  
+  .links {
+    float: right;
+    color: gold;
+  }
+
+  body {
+    background-color: cornflowerblue;
+  }
+
+  h1 {
+    text-align: center;
+    color: gold;
+  }
+
+  .border-style { 
+   border: 4px gold dashed;
+    padding: 5px 20px;
+  }
+
+  img {
+    padding-right: 100px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-right: 20px;
+    height: 190px;
+    width: 250px;
+  }
