@@ -23,6 +23,7 @@ header {
 
   body {
     background-color: cornflowerblue;
+  
   }
 
   h1 {
@@ -32,6 +33,11 @@ header {
     text-shadow: .5px .5px .5px black;
   }
 
+  h2 {
+    color: gold;
+    
+  }
+
   img {
     padding-right: 100px;
     padding-top: 5px;
@@ -39,4 +45,38 @@ header {
     margin-right: 20px;
     height: 190px;
     width: 250px;
+  }
+
+  @media screen and (min-width: 992px) {
+
+    body {
+      font-size: 18px;
+    }
+    .container {
+      width: 960px;
+      margin: 0 auto;
+    }
+  }
+  
+  @media screen and (min-width: 768px) and (max-width: 991px) {
+    /* Styles for screens between 768px and 991px go here */
+    body {
+      font-size: 16px;
+    }
+    .container {
+      width: 768px;
+      margin: 0 auto;
+    }
+  }
+  
+  /* Smartphone styles */
+  @media screen and (max-width: 767px) {
+    /* Styles for screens 767px and narrower go here */
+    body {
+      font-size: 14px;
+    }
+    .container {
+      width: 100%;
+      margin: 0;
+    }
   }
